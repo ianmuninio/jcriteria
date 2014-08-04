@@ -1,0 +1,50 @@
+{
+  "name": "jcriteria",
+  "version": "0.0.1",
+  "description": "A Hibernate-like-Criteria ORM API",
+  "main": "./lib",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "keywords": [
+    "hibernate",
+    "orm",
+    "orm-api",
+    "criteria",
+    "criteria-api",
+    "api",
+    "jcriteria"
+  ],
+  "author": {
+    "name": "Ian Mark Muninio",
+    "email": "ianmuninio@gmail.com"
+  },
+  "license": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/ianmuninio/jcriteria/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "mongojs": "~0.13.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.21.3",
+    "chai": "~1.9.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianmuninio/jcriteria.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianmuninio/jcriteria/issues"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ]
+}

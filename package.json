@@ -1,6 +1,6 @@
 {
   "name": "jcriteria",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Hibernate-like-Criteria ORM API",
   "main": "./lib",
   "scripts": {
@@ -26,7 +26,9 @@
     }
   ],
   "dependencies": {
-    "mongojs": "~0.13.1"
+    "mongojs": "~0.13.1",
+    "underscore": "~1.6.0",
+    "jmodel": "~0.0.2"
   },
   "devDependencies": {
     "mocha": "~1.21.3",
